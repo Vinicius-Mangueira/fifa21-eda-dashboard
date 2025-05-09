@@ -1,4 +1,3 @@
-Aqui está um README.md limpo, bem estruturado e sem “arte de lousa”. Basta copiar tudo de uma vez para o seu repositório:
 
 ````markdown
 # FIFA21 EDA Dashboard 🏟️📊
