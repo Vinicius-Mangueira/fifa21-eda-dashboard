@@ -1,6 +1,4 @@
-Aqui está um README.md limpo, bem estruturado e sem “arte de lousa”. Basta copiar tudo de uma vez para o seu repositório:
 
-````markdown
 # FIFA21 EDA Dashboard 🏟️📊
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
@@ -10,11 +8,11 @@ Aqui está um README.md limpo, bem estruturado e sem “arte de lousa”. Basta 
 > **Interactive Data Analysis and Visualization of FIFA 21 Player Stats**  
 > A Jupyter Notebook project covering data cleaning, descriptive statistics, interactive Plotly charts, and a Folium world map of player nationalities—no machine learning required!
 
----
+
 
 ## 🚀 Getting Started
 
-1. **Clone the repo**  
+1. **Clone the repository**
    ```bash
    git clone https://github.com/Vinicius-Mangueira/fifa21-eda-dashboard.git
    cd fifa21-eda-dashboard
@@ -105,14 +103,13 @@ fifa21-eda-dashboard/
    ```
 4. Push & open a Pull Request
 
-Por favor, siga o estilo existente e documente novas funcionalidades.
+Please follow the existing style and document new features.
 
 
 ## 📜 License
 
-Este projeto está sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para detalhes.
+This project is under the **MIT License**. See the [LICENSE] file for details.
 
----
 
-Made with ❤️ by **Vinicius Mangueira** • ⭐️ se achar útil!
 
+Made with ❤️ by **Vinicius Mangueira** • ⭐️ 
