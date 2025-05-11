@@ -1,0 +1,5 @@
+pandas==1.5.3
+plotly==5.13.1
+folium==0.14.0
+ipywidgets==8.0.4
+numpy==1.24.2
