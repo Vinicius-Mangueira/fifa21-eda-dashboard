@@ -1,38 +1,52 @@
+# FIFA21 EDA Dashboard 📊⚽
 
-# FIFA21 EDA Dashboard 🏟️📊
+**Explore and visualize FIFA21 player data** with an interactive Jupyter Notebook that combines powerful data analysis and geographic mapping.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Vinicius-Mangueira/fifa21-eda-dashboard/HEAD)  
-[![Open in NBViewer](https://img.shields.io/badge/Open%20in-NBViewer-orange.svg)](https://nbviewer.org/github/Vinicius-Mangueira/fifa21-eda-dashboard/blob/main/notebooks/fifa21_eda_dashboard.ipynb)
+---
 
-> **Interactive Data Analysis and Visualization of FIFA 21 Player Stats**  
-> A Jupyter Notebook project covering data cleaning, descriptive statistics, interactive Plotly charts, and a Folium world map of player nationalities—no machine learning required!
+## 🚀 Overview
 
+This project provides a comprehensive Exploratory Data Analysis (EDA) of FIFA21 player statistics. It includes data cleaning, transformation, global summaries, top performer rankings, position-based analysis, and an interactive choropleth map of player distribution by country.
 
+---
 
-## 🚀 Getting Started
+## 🔥 Key Features
 
-1. **Clone the repository**
+| Section                               | Description                                                                            |
+| ------------------------------------- | -------------------------------------------------------------------------------------- |
+| **1. Introduction**                   | Load dataset and overview of data structure.                                           |
+| **2. Data Cleaning & Transformation** | Handle missing values, convert height/weight to metric, calculate BMI & age.           |
+| **3. Global Statistics**              | Summary statistics (mean, median, quartiles) for key metrics.                          |
+| **4. Top Performers**                 | Lists of top 10 players by rating and potential.                                       |
+| **5. Position Analysis**              | Aggregated statistics by primary playing position.                                     |
+| **6. Geospatial Analysis**            | Folium choropleth map showing number of players per country with interactive tooltips. |
+| **7. Additional Insights**            | Further explorations and potential next steps.                                         |
+
+---
+
+## 📥 Installation
+
+1. **Clone the repository**:
+
    ```bash
    git clone https://github.com/Vinicius-Mangueira/fifa21-eda-dashboard.git
    cd fifa21-eda-dashboard
-````
-
-2. **Set up your environment**
+   ```
+2. **Create and activate a virtual environment** (recommended):
 
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate    # macOS/Linux
-   venv\Scripts\activate       # Windows
+   python -m venv venv
+   # Linux/Mac
+   source venv/bin/activate
+   # Windows
+   venv\Scripts\activate
+   ```
+3. **Install requirements**:
+
+   ```bash
    pip install -r requirements.txt
    ```
-
-3. **Get the dataset**
-
-   * Download from [Kaggle FIFA 21 dataset](https://www.kaggle.com/datasets/justinas/fifa-21-complete-player-dataset)
-   * Place `players_fifa21.csv` inside the `data/` folder
-
-4. **Run the notebook**
+4. **Launch the notebook**:
 
    ```bash
    jupyter notebook notebooks/fifa21_eda_dashboard.ipynb
@@ -40,76 +54,32 @@
 
 ---
 
-## 🔥 Key Features
+## 🎨 Demo
 
-* **Data Cleaning & Preprocessing**
-  Handle missing values, type conversions, and derive new metrics (e.g., BMI).
+![Dashboard Screenshot](https://user-images.githubusercontent.com/your-username/demo-screenshot.png)
 
-* **Descriptive Statistics**
-  Tables showing top-10 players by overall rating, plus aggregates by club and position.
-
-* **Static & Interactive Charts**
-
-  * Histograms, boxplots
-  * Scatter plots with hover info and filters (`Plotly` + `ipywidgets`)
-  * Correlation heatmap of physical vs. technical attributes
-
-* **Geospatial Analysis**
-  `Folium` choropleth and marker map displaying player counts and average ratings by country.
-
-* **Cloud-Ready**
-  Launch instantly on **Binder** or **NBViewer**, sem instalação local.
-
----
-
-## 📂 Repository Structure
-
-```
-fifa21-eda-dashboard/
-├── data/                        
-│   └── players_fifa21.csv      # raw data (added manually; gitignored)
-├── notebooks/                  
-│   └── fifa21_eda_dashboard.ipynb
-├── .gitignore                  
-├── LICENSE                     
-├── README.md                   
-└── requirements.txt            
-```
-
----
-
-## ☁️ Run Online
-
-* **Binder:**
-  [https://mybinder.org/v2/gh/Vinicius-Mangueira/fifa21-eda-dashboard/HEAD](https://mybinder.org/v2/gh/Vinicius-Mangueira/fifa21-eda-dashboard/HEAD)
-
-* **NBViewer:**
-  [https://nbviewer.org/github/Vinicius-Mangueira/fifa21-eda-dashboard/blob/main/notebooks/fifa21\_eda\_dashboard.ipynb](https://nbviewer.org/github/Vinicius-Mangueira/fifa21-eda-dashboard/blob/main/notebooks/fifa21_eda_dashboard.ipynb)
+Interact with the notebook cells to explore data tables, charts, and the world map.
 
 ---
 
 ## 🤝 Contributing
 
-1. Fork this repo
-2. Create a branch:
+Contributions are welcome! To contribute:
 
-   ```bash
-   git checkout -b feat/your-feature
-   ```
-3. Commit your changes:
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/my-new-feature`
+3. Commit your changes: `git commit -m 'Add my new feature'`
+4. Push to your branch: `git push origin feature/my-new-feature`
+5. Open a Pull Request
 
-   ```bash
-   git commit -m "Add awesome visualization"
-   ```
-4. Push & open a Pull Request
+---
 
-Please follow the existing style and document new features.
+## 📝 License
 
+This project is licensed under the [MIT License](LICENSE).
 
-## 📜 License
+---
 
-This project is under the **MIT License**. See the [LICENSE] file for details.
+## 👨‍💻 Author
 
-
-
-Made with ❤️ by **Vinicius Mangueira** • ⭐️ 
+Developed by Vinícius Mangueira — Student of Data Science & Artificial Intelligence @ UFPB 🇧🇷
